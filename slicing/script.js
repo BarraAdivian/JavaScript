@@ -1,0 +1,6 @@
+alert('selamat datang di ponpes Abu Dzar')
+alert("Assalamu'alaikum")
+alert(3+1+2)
+alert(3+1+2)
+alert(3+1+2)
+alert(3+1+2)
