@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        // Daftar rasa ice cream milik Raffa
+    let iceCream = ["Matcha", "Chocolate", "Vanilla"];
+
+    // 1. Jumlah ice cream Raffa
+    let jumlahIceCream = iceCream.length;
+    console.log("1. Jumlah ice cream Raffa adalah", jumlahIceCream);
+
+    // 2. Rasa ice cream Raffa yang ke-2
+    let rasaIceCreamKe2 = iceCream[1];
+    console.log("2. Rasa ice cream Raffa yang ke-2 adalah", rasaIceCreamKe2);
+
+    // 3. Rasa ice cream Raffa yang ke-3
+    let rasaIceCreamKe3 = iceCream[2];
+    console.log("3. Rasa ice cream Raffa yang ke-3 adalah", rasaIceCreamKe3);
+
+    // 4. Ice cream yang diberikan kepada Anhar
+    let iceCreamAnhar = iceCream.splice(1, 1)[0]; // Menghapus ice cream ke-2 dan menyimpan rasanya
+    console.log("4. Ice cream Anhar adalah rasa", iceCreamAnhar);
+
+    // 5. Jumlah ice cream Raffa setelah diberikan
+let jumlahSetelahDiberikan = iceCream.length;
+console.log("5. Total update ice cream Raffa setelah diberikan adalah", jumlahSetelahDiberikan);
+
+</body>
+</html>
